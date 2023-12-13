@@ -1,0 +1,135 @@
+PODS:
+  - AppAuth (1.6.2):
+    - AppAuth/Core (= 1.6.2)
+    - AppAuth/ExternalUserAgent (= 1.6.2)
+  - AppAuth/Core (1.6.2)
+  - AppAuth/ExternalUserAgent (1.6.2):
+    - AppAuth/Core
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - FBAEMKit (16.2.1):
+    - FBSDKCoreKit_Basics (= 16.2.1)
+  - FBSDKCoreKit (16.2.1):
+    - FBAEMKit (= 16.2.1)
+    - FBSDKCoreKit_Basics (= 16.2.1)
+  - FBSDKCoreKit_Basics (16.2.1)
+  - FBSDKLoginKit (16.2.1):
+    - FBSDKCoreKit (= 16.2.1)
+  - Flutter (1.0.0)
+  - flutter_login_facebook (1.9.0):
+    - FBSDKLoginKit (= 16.2.1)
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - google_sign_in_ios (0.0.1):
+    - Flutter
+    - GoogleSignIn (~> 6.2)
+  - GoogleSignIn (6.2.4):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher/Core (2.3.0)
+  - images_picker (0.0.1):
+    - Flutter
+    - ZLPhotoBrowser (= 4.2.5)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - ReachabilitySwift (5.0.0)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Toast (4.0.0)
+  - ZLPhotoBrowser (4.2.5):
+    - ZLPhotoBrowser/Core (= 4.2.5)
+  - ZLPhotoBrowser/Core (4.2.5)
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_login_facebook (from `.symlinks/plugins/flutter_login_facebook/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/ios`)
+  - images_picker (from `.symlinks/plugins/images_picker/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FMDB
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - ReachabilitySwift
+    - Toast
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_login_facebook:
+    :path: ".symlinks/plugins/flutter_login_facebook/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  google_sign_in_ios:
+    :path: ".symlinks/plugins/google_sign_in_ios/ios"
+  images_picker:
+    :path: ".symlinks/plugins/images_picker/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+
+SPEC CHECKSUMS:
+  AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
+  connectivity_plus: bf0076dd84a130856aa636df1c71ccaff908fa1d
+  FBAEMKit: 4763aa27b8f69eb9d2c274189e91388de1dbd88a
+  FBSDKCoreKit: 40ae989ca1da1bbeba56acd4671dde64ad415506
+  FBSDKCoreKit_Basics: 1257d71d2d692661290bf2af4bea5f9a101387af
+  FBSDKLoginKit: bf4f96d0ce475de2da4b1800ce150bd8a6f120f3
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_login_facebook: 1e096602eae99ee2be7ab4b3ea4cfcf667eab2f0
+  fluttertoast: fafc4fa4d01a6a9e4f772ecd190ffa525e9e2d9c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  google_sign_in_ios: 1256ff9d941db546373826966720b0c24804bcdd
+  GoogleSignIn: 5651ce3a61e56ca864160e79b484cd9ed3f49b7a
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+  images_picker: fa9364e3a7d3083c49f865fcfb2b9e7cdc574d3a
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  ZLPhotoBrowser: 4bfab86b851042e18d7f413284472aa68759626a
+
+PODFILE CHECKSUM: 7be2f5f74864d463a8ad433546ed1de7e0f29aef
+
+COCOAPODS: 1.12.0
